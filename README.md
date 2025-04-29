@@ -2,7 +2,7 @@
 
 **PhantomShield** is an advanced, automated Blue Team defense suite designed for live CTF battlegrounds and competitive cybersecurity challenges. It hardens Windows-based targets at runtime by eliminating vulnerable services, spoofing attacker scans, and enforcing near-paranoid-level process control — all while maintaining control for the defending team through a trusted shell.
 
-> ⚠️ Built for speed. Built for deception. Built for war.
+> ⚠️ Built for speed. Built for deception. Built for cyber-war.
 
 ---
 

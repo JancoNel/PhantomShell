@@ -1,7 +1,7 @@
 **PhantomShield/
 │
 ├── Core/
-│   ├── PhantomShield.cpp          # Main controller and orchestrator
+│   ├── Main.cpp          # Main controller and orchestrator
 │   ├── Config.hpp                 # Config and rule sets
 │   └── Utils.cpp/.hpp             # Shared helpers
 │
