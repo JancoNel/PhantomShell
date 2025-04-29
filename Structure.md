@@ -1,23 +1,25 @@
 **PhantomShield/
 │
+|── main.cpp
+|
 ├── Core/
-│   ├── Main.cpp          # Main controller and orchestrator
+│   ├── Core.hpp          # Main controller and orchestrator
 │   ├── Config.hpp                 # Config and rule sets
-│   └── Utils.cpp/.hpp             # Shared helpers
+│   └── Utils.hpp             # Shared helpers
 │
 ├── Components/
-│   ├── ServiceDisabler.cpp        # Detects and disables vulnerable Windows services
-│   ├── ServiceSpoofer.cpp         # Launches fake services with fake banners (e.g., SSH, RDP)
-│   ├── FirewallBouncer.cpp        # Syncs IPs via Mongo and blocks them locally
-│   ├── ProcessSniper.cpp          # Kills dangerous processes instantly
-│   └── BlueShell.cpp              # Provides trusted shell interface for defenders only
+│   ├── ServiceDisabler.hpp        # Detects and disables vulnerable Windows services
+│   ├── ServiceSpoofer.hpp         # Launches fake services with fake banners (e.g., SSH, RDP)
+│   ├── FirewallBouncer.hpp        # Syncs IPs via Mongo and blocks them locally
+│   ├── ProcessSniper.hpp          # Kills dangerous processes instantly
+│   └── BlueShell.hpp              # Provides trusted shell interface for defenders only
 │
 ├── Network/
-│   └── MongoSync.cpp              # Handles communication with shared IP database
+│   └── MongoSync.hpp              # Handles communication with shared IP database
 │
 ├── DefenderUI/
-│   └── PhantomCLI.cpp             # C++ shell interface for the blue team (secured, backdoor-proof)
-│
+│   └── PhantomCLI.hpp             # C++ shell interface for the blue team (secured, backdoor-proof)
+|
 ├── Build/
 │   └── [Compiled binaries, logs, etc.]
 │
